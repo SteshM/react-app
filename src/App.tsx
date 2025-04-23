@@ -1,6 +1,8 @@
-import Message from "./message";
+import ListGroup from "./components/ListGroup"
+
+//this is the root component /top level
 
 //this is so it can be used somewhere else
 export default function App(){
-  return <div><Message/></div>
+  return <div><ListGroup/></div>
 }
