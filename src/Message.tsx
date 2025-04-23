@@ -2,6 +2,12 @@
 
 export default function Message(){
     //JSx, javascript html
-    return <h1>Hello world</h1>;
+    //with jsx , we can describe the UI
+    //allows us to create dynamic content
+    const name = 'Stesh';
+    if (name)
+     return <h1>Hello {name}</h1>; 
+    return <h1>Hello World</h1>;
+    
 }
 
