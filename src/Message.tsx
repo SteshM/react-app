@@ -1,4 +1,5 @@
 //Pascalcasing---capitalize the first letters...just like CamelCase
+//This is the child component
 
 export default function Message(){
     //JSx, javascript html
